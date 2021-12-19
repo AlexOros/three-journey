@@ -53,14 +53,3 @@ const main = () => {
 };
 
 main();
-
-/**
- * Animate
- */
-const tick = () => {
-  console.log("tick");
-
-  window.requestAnimationFrame(tick);
-};
-
-tick();

@@ -1,0 +1,19 @@
+{
+  "name": "three",
+  "version": "0.0.0",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Alex",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "gsap": "^3.9.0",
+    "three": "^0.135.0"
+  }
+}
