@@ -79,6 +79,7 @@ const initDebug = ({ cube, material }) => {
   return gui;
 };
 
+// Bookmark min: 15:10
 const main = () => {
   const canvas = document.getElementById("webgl");
   const scene = new THREE.Scene();
